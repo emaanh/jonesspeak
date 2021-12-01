@@ -1,4 +1,4 @@
-# JonesSpeak v1.0.1
+# JonesSpeak v1.0.2
 Revolutionary compression algorithm used to communicate on Mrs. Jones whiteboard (~10MB)<br />
 GUI is based off Expression Evaluator in ADEN (thanks Mr Murray).
 
