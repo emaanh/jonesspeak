@@ -42,8 +42,7 @@ public class jonesspeak {
 		String decryptedMsg = "";
 		for(int i = 0; i<wordsIndex.length; i++) {
 			int indexBase10 = Integer.valueOf(Long.valueOf(wordsIndex[i], 36).toString());
-			if(indexBase10>=dictionary.length) return "invalid message";
-
+			if(indexBase10>=dictionary.length || wordsIndex[i].length()>=5) return "invalid message";
 			decryptedMsg = decryptedMsg + " "+dictionary[indexBase10];
 		}
 		
