@@ -2,4 +2,4 @@
 Revolutionary compression software used to communicate on Mrs. Jones whiteboard
 
 ## Installation
-Clone this repository and run jonesspeakGUI.java file.
+Clone this repository and run jonesspeakGUI.java file, located in src>(default package)
