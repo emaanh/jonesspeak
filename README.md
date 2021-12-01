@@ -1,9 +1,9 @@
 # JonesSpeak
-Revolutionary compression algorithm used to communicate on Mrs. Jones whiteboard (~10MB)
+Revolutionary compression algorithm used to communicate on Mrs. Jones whiteboard (~10MB)\n
 GUI is based off Expression Evaluator in ADEN (thanks Mr Murray).
 
 ## Installation
-Clone this repository and run jonesspeakGUI.java file, located in src>(default package)
+Clone this repository and run jonesspeakGUI.java file, located in src>(default package)\n
 Not tested in IDEs outside of eclipse 
 
 ## Instructions
