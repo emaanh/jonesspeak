@@ -1,4 +1,4 @@
-# JonesSpeak v1.1.0
+# JonesSpeak v1.2.0
 Revolutionary compression algorithm used to communicate on Mrs. Jones whiteboard (~10MB)<br />
 
 ## Installation
