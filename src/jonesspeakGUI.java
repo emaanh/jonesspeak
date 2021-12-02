@@ -39,7 +39,7 @@ public class jonesspeakGUI extends Application{
 	}
 	
 	private void initLabels_Text_TextFields() {
-		evalLabel = new Label("Welcome to JonesSpeak Encryption");
+		evalLabel = new Label("JonesSpeak: Dictionary Encryption");
 		evalLabel.setFont(Font.font("Cambria Math",20));
 	    outputResults = new Text(0,0,"");
 	    outputResults.setFont(Font.font("Consolas",18));
@@ -122,7 +122,7 @@ public class jonesspeakGUI extends Application{
 		evalResults.add(outputResults,0,3);
 		
 		evalResults.setHgap(10); 
-		evalResults.setVgap(10); //vertical gap in pixels
+		evalResults.setVgap(10); 
 		evalResults.setPadding(new Insets(10, 10, 10, 10)); 
 		GridPane.setHalignment(evalLabel, HPos.CENTER);
 		GridPane.setHalignment(outputResults, HPos.CENTER);		

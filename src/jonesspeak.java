@@ -1,8 +1,11 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
 import java.nio.file.Files;
@@ -21,8 +24,10 @@ public class jonesspeak {
 	
 	public void formatDictionary() throws IOException {
 		String file1 ="src/1m.txt";
+		InputStream input = new FileInputStream(file1);
+		BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+		
 		int file1Size = getSize(file1);
-		BufferedReader reader = new BufferedReader(new FileReader(file1));
 		dictionary = new String[file1Size];
 		for(int i =0; i<dictionary.length;i++) {dictionary[i] = reader.readLine().replaceAll("(\\w+)\\s\\d+", "$1");}
 		reader.close();
