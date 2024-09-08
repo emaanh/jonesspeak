@@ -1,10 +1,6 @@
-# JonesSpeak v2.0.0
-Revolutionary compression algorithm used to communicate on Mrs. Jones whiteboard (~10MB)<br />
+# JonesSpeak v3.1
+Revolutionary compression algorithm used to communicate on Mrs. Jones's whiteboard
 
-## Installation
-Clone this repository and run jonesspeak.java
 
-## Instructions
-- Enter the message you would like to encrypt or decrypt
-- Click the encryption or decryption button
-- It's very slow atm
+## Notes
+It is very slow at the moment due to the speed of the next word prediction algorithm (Going to be optimized in v3.2)
