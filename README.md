@@ -1,5 +1,5 @@
 # JonesSpeak v3.1
-Revolutionary ML-powered compression algorithm used to communicate on Mrs. Jones's whiteboard
+Revolutionary ML-powered text compression algorithm used to communicate on Mrs. Jones's whiteboard
 
 
 ## Notes
